@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="100" verbose="0" name="Failed suite [Surefire suite]" parallel="methods">
+  <test name="Surefire test(failed)" parallel="methods">
+    <classes>
+      <class name="com.cap1.Cap1Test">
+        <methods>
+          <include name="Cap1Func" invocation-numbers="3 2 7 8"/>
+          <include name="Cap1PageTitle" invocation-numbers="7"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.cap1.Cap1Test -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

@@ -1,0 +1,49 @@
+-------------------------------------------------------------------------------
+Test set: com.cap1.Cap1Test
+-------------------------------------------------------------------------------
+Tests run: 25, Failures: 6, Errors: 0, Skipped: 2, Time elapsed: 493.761 sec <<< FAILURE! - in com.cap1.Cap1Test
+Cap1Func(com.cap1.Cap1Test)  Time elapsed: 9.058 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Explore Credit Cards & Apply Online | Capital One] but found [Capital One]
+	at com.cap1.Cap1Test.Cap1Func(Cap1Test.java:135)
+
+Cap1Func(com.cap1.Cap1Test)  Time elapsed: 6.164 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Explore Credit Cards & Apply Online | Capital One] but found [Capital One]
+	at com.cap1.Cap1Test.Cap1Func(Cap1Test.java:135)
+
+Cap1Func(com.cap1.Cap1Test)  Time elapsed: 67.468 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Explore Credit Cards & Apply Online | Capital One] but found [Capital One]
+	at com.cap1.Cap1Test.Cap1Func(Cap1Test.java:135)
+
+Cap1PageTitle(com.cap1.Cap1Test)  Time elapsed: 307.732 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Invalid message: Due to a previous error, this job has already finished.  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SL-1549.lan', ip: 'fe80:0:0:0:1c32:d269:d0d0:1bb8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {applicationCacheEnabled: true, browserName: safari, cleanSession: true, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, hasMetadata: true, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, platform: MAC, platformName: MAC, rotatable: false, version: 12604.5.6.1.1, webStorageEnabled: true, webdriver.remote.sessionid: 0b26e62766ef43a2b4c54716421...}
+Session ID: 0b26e62766ef43a2b4c5471642142017
+	at com.cap1.Cap1Test.Cap1PageTitle(Cap1Test.java:128)
+
+tearDown(com.cap1.Cap1Test)  Time elapsed: 308.325 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Invalid message: Due to a previous error, this job has already finished.  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SL-1549.lan', ip: 'fe80:0:0:0:1c32:d269:d0d0:1bb8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {applicationCacheEnabled: true, browserName: safari, cleanSession: true, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, hasMetadata: true, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, platform: MAC, platformName: MAC, rotatable: false, version: 12604.5.6.1.1, webStorageEnabled: true, webdriver.remote.sessionid: 0b26e62766ef43a2b4c54716421...}
+Session ID: 0b26e62766ef43a2b4c5471642142017
+	at com.cap1.Cap1Test.tearDown(Cap1Test.java:111)
+
+Cap1Func(com.cap1.Cap1Test)  Time elapsed: 480.678 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Invalid message: Due to a previous error, this job has already finished.  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SL-1549.lan', ip: 'fe80:0:0:0:1c32:d269:d0d0:1bb8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/x8/0hf91b3x6n5...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64533}, handlesAlerts: true, hasMetadata: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 76.0.3809.87, webStorageEnabled: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 07584742c38e480b89844267b5e...}
+Session ID: 07584742c38e480b89844267b5efbabb
+	at com.cap1.Cap1Test.Cap1Func(Cap1Test.java:139)
+
